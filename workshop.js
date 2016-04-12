@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
     $("#the-textarea").keyup(function() {
-        console.log(($(this).val()).length);
+        $("#character-counter").text($(this).val().length);
 
     });
     
